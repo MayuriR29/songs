@@ -1,10 +1,10 @@
-import { combineReducers } from "react-redux";
+import { combineReducers } from "redux";
 const songsReducer = () => {
   return [
-    { title: "I want to fly", duratiom: "3:15" },
-    { title: "Barbie Girl", duratiom: "4:15" },
-    { title: "Brazil Brazil", duratiom: "3:45" },
-    { title: "Vande Mataram", duratiom: "4:50" }
+    { title: "I want to fly", duration: "3:15" },
+    { title: "Barbie Girl", duration: "4:15" },
+    { title: "Brazil Brazil", duration: "3:45" },
+    { title: "Vande Mataram", duration: "4:50" }
   ];
 };
 
